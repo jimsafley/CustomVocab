@@ -26,7 +26,7 @@ class CustomVocab extends Literal
 
     public function getLabel()
     {
-        return sprintf('Custom Vocab: "%s"', $this->vocab->label());
+        return sprintf('Custom Vocab: “%s”', $this->vocab->label());
     }
 
     public function getTemplate(PhpRenderer $view)
